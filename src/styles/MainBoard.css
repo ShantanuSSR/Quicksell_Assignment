@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(218, 255, 243);
+    height: 120vh;
+}
+
+.dashboard {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width : 270px;
+}
+
+.cardHeading1 {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(218, 255, 243);
+}
+
+.image {
+    margin-right: 5px;
+    position: relative;
+    display : inline-block;
+    width: 15px; 
+    height: 15px;  
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.sideView2{
+    display: flex ;
+    width: 40px;
+    justify-content: space-between;
+}
+.sideView1{
+    display: flex ;
+    width: 100%;
+    gap : 10px;
+}

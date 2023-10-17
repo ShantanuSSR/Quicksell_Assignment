@@ -1,0 +1,71 @@
+.navmenu {
+    padding: 20px 30px ;
+    background-color: white
+}
+
+.navmenuButton {
+    position: relative;
+    background-color: white;
+}
+
+.groupButton {
+    z-index: 10;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px silver;
+    border-radius: 5px;
+    position: relative;
+    width: 120px; 
+    height: 25px;
+    padding: 5px 5px;
+    align-items: center;
+    background-color: white;
+}
+.groupButton .icon {
+    margin-right: 10px; 
+    margin-bottom: 2px;
+    background-color: white;
+}
+
+.groupButton .icon2 {
+    margin-left: 10px; 
+    background-color: white;
+}
+
+.groupButton .content {
+    font-size: 14px; 
+    background-color: white;
+}
+
+select {
+    width: 100px;
+    padding: 2px 5px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.dropDown {
+    position: absolute;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px;
+    margin: 10px 5px 5px 0px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-shadow: 2px 2px silver;
+    z-index: 10;
+    background-color: white;
+}
+
+.group {
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
